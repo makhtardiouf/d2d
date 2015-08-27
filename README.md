@@ -7,6 +7,6 @@ At this point the Network-assited part is functional with UEs able to send by ht
 
 Announcing UE can multicast data to its peer, but over wifi-adhoc (instead of wifi-D as supported by the specs).
 
-Gyeonsang National University
+Gyeonsang N. University
 InfoCom Engineering dept.
 
