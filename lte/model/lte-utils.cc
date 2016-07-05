@@ -7,7 +7,7 @@
  * InfoCom Engineering Dept, South Korea
  * Parts adapted from lena-distributed-ffr.cc, with additional features**
  *
- * $Id: lte-utils.cc, 2016-05-26 19:01 +0900 makhtar $
+ * $Id: lte-utils.cc, 2016-07-05 18:56 +0900 makhtar $
  * Author: Makhtar Diouf
  *
  * This program is open source software released under the terms of the

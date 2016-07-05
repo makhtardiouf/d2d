@@ -4,7 +4,7 @@
  * InfoCom Engineering Dept, South Korea
  *
  * 
- * $Id: lte-prose-helper.cc, 2016-05-31 16:40 +0900 makhtar $
+ * $Id: lte-prose-helper.cc, 2016-07-05 18:56 +0900 makhtar $
  * Advisor: Woonsup Lee 
  * Author: Makhtar Diouf 
  * *** Proximity-based Services LTE-Direct (D2D) ***

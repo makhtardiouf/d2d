@@ -37,7 +37,7 @@ Pull the D2D-related changesets:
 
     git clone https://github.com/makhtardiouf/d2d.git
     cp -Rv d2d/* src/
-    mv d2d/.git src/  # for future updates with git pull
+    mv d2d/.git src/      # For future updates with git pull
 
     export CXXFLAGS="-O0 -ggdb -g3 -Wall -std=c++11 -fstrict-aliasing -Wstrict-aliasing"
     ./waf configure --build-profile=debug --enable-sudo --enable-examples
@@ -54,9 +54,9 @@ Run:
 Utility scripts are in:
 
     $NS3_DIR/src/lte/examples/d2d-data/d2d*.bash
-    d2dbuild.bash   build and display log
-    d2drun.bash  executes D2dSim and display logged output at program termination
-    d2ddbg.bash  runs D2dSim under the GDB debugger ...
+    d2dbuild.bash  Build and display log
+    d2drun.bash  Executes D2dSim and display logged output at program termination
+    d2ddbg.bash  Runs D2dSim under the GDB debugger ...
     
 
 Stats files(txt, pcap) are saved under the OUTPUT directory.
@@ -65,8 +65,12 @@ Detailed documentation will be written later on.
 
 This project was initially hosted at: https://bitbucket.org/makhtardiouf/dtod
 
-    (C) 2014-2016 Gyeonsang N. University
+    HTTP-related code: (C) Georgia Tech Research Corporation
+    Upstream NS-3 LTE module: (C) Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
+
+    LTE D2D: (C) 2014-2016 Gyeonsang N. University
     InfoCom Engineering department
     Adviser: Woongsup Lee
     Implementer: Makhtar Diouf
     
+$Id$
