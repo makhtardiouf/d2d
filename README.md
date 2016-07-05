@@ -37,6 +37,7 @@ Pull the D2D-related changesets:
 
     git clone https://github.com/makhtardiouf/d2d.git
     cp -Rv d2d/* src/
+    mv d2d/.git src/  # for future updates with git pull
 
     export CXXFLAGS="-O0 -ggdb -g3 -Wall -std=c++11 -fstrict-aliasing -Wstrict-aliasing"
     ./waf configure --build-profile=debug --enable-sudo --enable-examples
@@ -64,7 +65,8 @@ Detailed documentation will be written later on.
 
 This project was initially hosted at: https://bitbucket.org/makhtardiouf/dtod
 
-(C) 2014-2016 Gyeonsang N. University, Makhtar Diouf
-
-InfoCom Engineering dept
-
+    (C) 2014-2016 Gyeonsang N. University
+    InfoCom Engineering department
+    Adviser: Woongsup Lee
+    Implementer: Makhtar Diouf
+    
