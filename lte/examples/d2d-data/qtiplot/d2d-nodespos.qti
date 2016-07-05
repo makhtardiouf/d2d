@@ -1,0 +1,241 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+NodesPosLabels	23	5	15. 3. 1. 오후 1:39
+geometry	0	0	1920	764	
+header	Times[X]	Node[L]	Xposm[Y]	Yposm[Z]	BatteryAh
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/2	1;0/2	0;1/2	0;1/2	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	Time(s)	 Node	  Xpos(m)	 Ypos(m)	 Battery(Ah)	
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/20160517/3kmh_20Ues_Ratio1/d2d-nodes.txt	2
+<data>
+0	0		eNB1	0.5	0	
+1	0		eNB2	-0.25	0.43	
+2	0		eNB3	-0.25	-0.43	
+3	10		Ue1	-28.6	-149.53	0
+4	10		Ue2	95.39	-98.6	0
+5	10		Ue3	-80.09	-33.91	0
+6	10		Ue4	-62.45	-58.16	0
+7	10		Ue5	-142.32	133.5	0
+8	10		Ue6	-52.94	-122.54	0
+9	10		Ue7	124.72	126.79	0
+10	10		Ue8	163.85	-45.89	0
+11	10		Ue9	17.76	-107.88	0
+12	10		Ue10	-16.29	308.38	0
+13	10		Ue11	108.56	193.95	0
+14	10		Ue12	-119.43	247.7	0
+15	10		Ue13	34.72	-25.78	0
+16	10		Ue14	-76.58	-11.12	0
+17	10		Ue15	-132.4	9	0
+18	10		Ue16	-37.59	175.75	0
+19	10		Ue17	76.46	172.69	0
+20	10		Ue18	265.12	149.57	0
+21	10		Ue19	-36.6	200.57	0
+22	10		Ue20	37.82	24.51	0
+</data>
+</table>
+<multiLayer>
+Nodespos2D	1	1	15. 3. 1. 오후 1:40
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	492	265
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	97	28	732	433
+<PageGeometry>0.0505208	0.044586	0.38125	0.68949</PageGeometry>
+PlotTitle	20 UE nodes distribution sample	#000000	4
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	25
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#000080	0	0.5	#a0a0a4	2	0.4	#000080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Xpos (m)	Ypos(m)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	0	-1	1	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	16	25	0	0	0
+ScaleFont0	Ubuntu	16	25	0	0	0
+ScaleFont1	Helvetica	15	50	0	0	0
+ScaleFont2	Ubuntu	18	25	0	0	0
+ScaleFont3	Helvetica	15	50	0	0	0
+AxisFont0	Ubuntu	18	25	0	0	0
+AxisFont1	Ubuntu	11	63	0	0	0
+AxisFont2	Ubuntu	16	25	0	0	0
+AxisFont3	Ubuntu	13	63	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	NodesPosLabels_Xposm	NodesPosLabels_Yposm	2	4	#ff8000	2	0.7	9	3	#a0a0a4	#0000ff,0.300008	0	#000000	14	1	2	0	4	123	1
+<CurveLabels>
+	<column>NodesPosLabels_Node</column>
+	<color>#000000</color>
+	<whiteOut>0</whiteOut>
+	<Font>Ubuntu,10,-1,5,25,0,0,0,0,0</Font>
+	<angle>0</angle>
+	<justify>2</justify>
+	<xoffset>-20</xoffset>
+</CurveLabels>
+scale	0	-200	400	0	7	5	0	0
+scale	1	-200	400	0	7	5	0	0
+scale	2	-200	300	0	6	5	0	0
+scale	3	-200	300	0	6	5	0	0
+LabelsFormat	1	0	0	6	1	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	3	6
+DrawAxesBackbone	1	0	1	0	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	0	4	1	4
+ShowTicksPolicy	0	0	-1	0
+EnabledTickLabels	1	0	1	0
+<Ellipse>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>1</LineStyle>
+<x>-5.4989816700611</x>
+<y>13.636363636364</y>
+<right>10.3869653767821</right>
+<bottom>-15.9090909090909</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ff8000</Background>
+<Alpha>215</Alpha>
+<BrushColor>#ff8000</BrushColor>
+<BrushStyle>6</BrushStyle>
+</Ellipse>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-35.606060606061</x>
+<y>3.0075187969925</y>
+<right>71.2121212121212</right>
+<bottom>-87.218045112782</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+eNB
+</Text>
+<Font>Ubuntu	14	25	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>0</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph1	1	1	3/23/15 11:44
+geometry	246	74	777	553	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	576	399
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	25	16	733	422
+<PageGeometry>0.0325098	0.0316832	0.953186	0.835644</PageGeometry>
+PlotTitle		#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	0	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Helvetica	15	50	0	0	0
+ScaleFont0	Helvetica	15	50	0	0	0
+ScaleFont1	Helvetica	15	50	0	0	0
+ScaleFont2	Helvetica	15	50	0	0	0
+ScaleFont3	Helvetica	15	50	0	0	0
+AxisFont0	Helvetica	13	75	0	0	0
+AxisFont1	Helvetica	13	75	0	0	0
+AxisFont2	Helvetica	13	75	0	0	0
+AxisFont3	Helvetica	13	75	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+scale	0	-0.6	0.6	0	7	5	0	0
+scale	1	-0.6	0.6	0	7	5	0	0
+scale	2	-0.6	0.6	0	7	5	0	0
+scale	3	-0.6	0.6	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.71775700934579</x>
+<y>0.50741839762611</y>
+<right>-0.42</right>
+<bottom>0.484090909090909</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>0</visible>
+<Text>
+
+</Text>
+<Font>Helvetica	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

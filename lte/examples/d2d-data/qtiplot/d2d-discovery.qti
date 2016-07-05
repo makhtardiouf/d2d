@@ -1,0 +1,283 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+Randomwalk3kmh	28	6	15. 3. 22. 오후 3:21
+geometry	maximized	active
+header	Times[X]	Candidates[X]	DiscoveredUes	Distancem	RatioRandomWalk[Y]	AvgDistancem
+ColWidth	0	123	152	188	202	162	
+<com>
+<col nr="4">
+col("DiscoveredUes") * 100 / col("Candidates")
+</col>
+<col nr="5">
+AVG("Distancem", 1, 20)
+</col>
+</com>
+ColType	0;0/2	0;1/0	0;0/2	0;0/2	0;1/2	0;0/2
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	1	0	0	0	0	0
+Comments	Time(s)	D2D Candidates	DiscoveredUes	Distance(m)	Ratio (%)	AvgDistance(m)	
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/d2d-discovery20150322-randomwalk3kmh.txt	2
+<data>
+0	3.7	5	2	35	40	55
+1	3.7	12	5	85	33.33	55
+2	3.7	12	3	30	33.33	55
+3	3.7	16	4	78	37.5	55
+4	3.7	16	8	31	37.5	55
+5	3.7	22	3	52	15.91	55
+6	3.7	22	4	58	15.91	55
+7	3.7	25	10	79	50	55
+8	3.7	25	15	48	50	55
+9	3.7	35	20	40	50	55
+10	3.7	35	15	77	50	55
+11	3.7	45	19	66	40	55
+12	3.7	45	17	70	40	55
+13	3.7	55	24	14	43.64	55
+14	3.7	55	24	72	43.64	55
+15	3.7	65	30	46	46.15	55
+16	3.7	75	27	48	36	55
+17	3.7	85	13	51	15.29	55
+18	3.7	95	35	79	36.84	55
+19	3.7	105	15	34	14.29	55
+20	0	115	22	66	19.13	55
+</data>
+</table>
+<table>
+Table1	31	6	15. 3. 31. 오후 4:59
+geometry	0	0	1920	764	
+header	Times[X]	Candidates[Y]	DiscoveredUes[Y]	Distancem[Y]	Ratio[Y]	AvgDistancem[Y]
+ColWidth	0	100	137	122	143	173	
+<com>
+</com>
+ColType	0;0/2	0;1/0	0;0/2	0;0/2	0;0/2	0;0/2
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	1	0	0	0	0	0
+Comments	Time(s) 	Candidates 	DiscoveredUes 	Distance(m) 	Ratio(%) 	AvgDistance(m)	
+WindowLabel	/home/makhtar/2015-03-30/3kmh_140Ues_Ratio1/d2d-discovery.txt	2
+<data>
+0	3.6	5	2	35	0	0
+1	3.6	12	5	85	0	0
+2	3.6	12	3	30	0	0
+3	3.6	16	4	78	0	0
+4	3.6	16	8	31	0	0
+5	3.6	22	4	58	0	0
+6	3.6	22	3	52	0	0
+7	3.6	25	15	48	0	0
+8	3.6	25	10	79	0	0
+9	3.6	35	15	77	0	0
+10	3.6	35	20	40	0	0
+11	3.6	45	19	66	0	0
+12	3.6	45	17	70	0	0
+13	3.6	55	24	14	0	0
+14	3.6	55	24	72	0	0
+15	3.6	65	30	46	0	0
+16	3.6	75	27	48	0	0
+17	3.6	85	13	51	0	0
+18	3.6	95	35	79	0	0
+19	3.6	105	15	34	0	0
+20	3.6	115	22	66	0	0
+</data>
+</table>
+<multiLayer>
+2D_Discovery	1	1	15. 3. 31. 오후 5:42
+geometry	0	0	659	410	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	736	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	6	651	374
+<PageGeometry>0.0060698	0.0153846	0.98786	0.958974</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	5	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	11	50	0	0	0
+ScaleFont0	Ubuntu	20	50	0	0	0
+ScaleFont1	Ubuntu	22	50	0	0	0
+ScaleFont2	Ubuntu	22	50	0	0	0
+ScaleFont3	Ubuntu	22	50	0	0	0
+AxisFont0	Ubuntu	22	50	0	0	0
+AxisFont1	Ubuntu	26	63	0	0	0
+AxisFont2	Ubuntu	22	50	0	0	0
+AxisFont3	Ubuntu	26	63	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Randomwalk3kmh_Candidates	Randomwalk3kmh_RatioRandomWalk	7	5	#0000ff	0	1	5	1	#0000ff	#0000ff	0	#000000	14	2	0	0	27	0
+curve	Smoothed1_1	Smoothed1_2	7	5	#0000a0	0	1	3	1	#000000	#a0a0a4	0.560006	#0000a0	12	2	0	0	20	1
+scale	0	10	55	0	10	5	0	0
+scale	1	10	55	0	10	5	0	0
+scale	2	0	120	0	7	5	0	0
+scale	3	0	120	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	0	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>57.308146399055</x>
+<y>46.439393939394</y>
+<right>85.2892561983471</right>
+<bottom>41.4393939393939</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(2)Discovery Rate
+</Text>
+<Font>Ubuntu	20	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Smoothed1	21	2	15. 3. 31. 오후 5:42
+geometry	0	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/2	0;0/2
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	10 points average smoothing of Randomwalk3kmh_RatioRandomWalk	2
+<data>
+0	5	40
+1	12	36
+2	12	36
+3	16	30
+4	16	35
+5	22	38
+6	22	38
+7	25	38
+8	25	39
+9	35	40
+10	35	40
+11	45	42
+12	45	42
+13	55	41
+14	55	38
+15	65	35
+16	75	33
+17	85	30
+18	95	24
+19	100	23
+20	120	19
+</data>
+</table>
+<open>1</open>
+<log>
+[15. 3. 21. 오전 1:17	Plot: ''Graph2'']
+
+Numerical integration of: Discovery_Ratio using the Trapezoidal Rule
+Points: 20 from x = 23 to x = 1.2e+02
+Peak at x = 23	y = 1e+02
+Area = 7.4e+03
+-------------------------------------------------------------
+
+
+
+
+[3/21/15 21:43	Plot: ''Graph1'']
+Lorentz Fit of dataset: DiscoveryData_Ratio Fix100m, using function: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 2.300000000000000e+01 to x = 1.180000000000000e+02
+A (area) = 7.346680201066564e-01 +/- 9.282795688457607e+29
+xc (center) = 2.299999953335099e+01 +/- 5.883531491660946e+14
+w (width) = 2.948155237663707e-11 +/- 3.725100586944741e+19
+y0 (offset) = 1.459999999999999e+01 +/- 2.078284529508272e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.147977500000003e+01
+R^2 = 0.172290133558125
+Adjusted R^2 = -0.0484324974930421
+RMSE (Root Mean Squared Error) = 8.45457124873876
+RSS (Residual Sum of Squares) = 1,143.6764
+---------------------------------------------------------------------------------------
+Iterations = 494
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[3/21/15 21:58	Plot: ''Graph1'']
+Gauss Fit of dataset: DiscoveryData_Ratio, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 2.300000000000000e+01 to x = 1.180000000000000e+02
+A (area) = 3.087089459100099e+03 +/- 6.811374817715231e+13
+xc (center) = 2.553547250048182e+01 +/- 2.785523685335983e+08
+w (width) = 1.943177560694393e+00 +/- 7.629525754654703e+09
+y0 (offset) = 4.920944444451288e+01 +/- 9.464692339562065e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.522866818403602e+03
+R^2 = 0.138583588387058
+Adjusted R^2 = -0.0911274547097258
+RMSE (Root Mean Squared Error) = 39.0239262299887
+RSS (Residual Sum of Squares) = 24,365.8690944576
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+
+[3/21/15 22:02	Plot: ''Graph1'']
+Lorentz Fit of dataset: DiscoveryData_Ratio 100m0kmh, using function: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 2.300000000000000e+01 to x = 1.180000000000000e+02
+A (area) = 7.346680201066564e-01 +/- 9.282795688457607e+29
+xc (center) = 2.299999953335099e+01 +/- 5.883531491660946e+14
+w (width) = 2.948155237663707e-11 +/- 3.725100586944741e+19
+y0 (offset) = 1.459999999999999e+01 +/- 2.078284529508272e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.147977500000003e+01
+R^2 = 0.172290133558125
+Adjusted R^2 = -0.0484324974930421
+RMSE (Root Mean Squared Error) = 8.45457124873876
+RSS (Residual Sum of Squares) = 1,143.6764
+---------------------------------------------------------------------------------------
+Iterations = 494
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+</log>

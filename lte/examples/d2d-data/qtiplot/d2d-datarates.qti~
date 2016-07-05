@@ -1,0 +1,453 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+LteDandInfraRates	65	4	15. 3. 27. 오후 6:02
+geometry	maximized	active
+header	Times[X]	Ue	Rangem	ThroughputMbps[Y]
+ColWidth	100	100	167	177	
+<com>
+</com>
+ColType	0;0/2	0;0/2	0;1/2	0;0/2
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments	Time(s) 	Ue 	Range(m) 	Throughput(Mbps)	
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/20151103/3kmh_10Ues_Ratio1/d2d-wlandata.txt	2
+<data>
+0	1	0	110	0
+1	1	0	85	0
+2	1	0	330	0
+3	2	0	330	0.48
+4	3	0	330	0.81
+5	4	0	110	1.8
+6	4	0	330	0.95
+7	5	0	330	1
+8	5	0	110	3.5
+9	6	0	110	4.6
+10	6	0	330	0.95
+11	7	0	330	0.95
+12	7	0	110	5.3
+13	8	0	330	0.89
+14	8	0	110	5.9
+15	9	0	330	0.84
+16	9	0	110	6.4
+17	10	0	110	6.7
+18	10	0	330	0.87
+19	11	0	110	7
+20	11	0	330	0.84
+21	12	0	110	7.3
+22	12	0	330	0.79
+23	13	0	330	0.77
+24	13	0	110	7.5
+25	14	0	330	0.75
+26	14	0	110	7.7
+27	15	0	330	0.7
+28	15	0	110	7.8
+29	16	0	330	0.7
+30	16	0	110	8
+31	17	0	330	0.66
+32	17	0	110	8.1
+33	18	0	330	0.68
+34	18	0	110	8.2
+35	19	0	330	0.65
+36	19	0	110	8.3
+37	20	0	330	0.63
+38	20	0	110	8.4
+39	21	0	110	8.4
+40	21	0	330	0.6
+41	22	0	110	8.5
+42	22	0	330	0.58
+43	23	0	330	0.56
+44	23	0	110	8.6
+45	24	0	330	0.53
+46	24	0	110	8.6
+47	25	0	330	0.54
+48	25	0	110	8.7
+49	26	0	330	0.54
+50	26	0	110	8.7
+51	27	0	330	0.53
+52	27	0	110	8.8
+53	28	0	330	0.53
+54	28	0	110	8.8
+55	29	0	330	0.52
+56	29	0	110	8.9
+57	30	0	330	0.54
+58	30	0	110	8.9
+59	31	0	330	0.53
+60	32	0	330	0.52
+61	33	0	330	0.52
+62	34	0	330	0.5
+63	35	0	330	0.49
+64	36	0	330	0.48
+</data>
+</table>
+<table>
+LteDataRate	11	4	15. 3. 29. 오후 10:48
+geometry	0	0	1920	636	
+header	Times[X]	Ue	Rangem	ThroughputMbps[Y]
+ColWidth	100	100	100	178	
+<com>
+</com>
+ColType	0;0/2	0;0/2	0;0/2	0;0/2
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments	Time(s) 	Ue 	Range(m) 	Throughput(Mbps)	
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/2015-03-30/3kmh_20Ues_Ratio1/d2d-ltedata.txt	0
+<data>
+0	15	0	0	9.2
+1	16	0	0	10
+2	17	0	0	10
+3	18	0	0	10
+4	19	0	0	10
+5	20	0	0	10
+6	21	0	0	10
+7	22	0	0	10
+8	23	0	0	10
+9	24	0	0	10
+10	25	0	0	1.1
+</data>
+</table>
+<table>
+Table1	96	5	16. 2. 29. 오후 8:17
+geometry	510	0	941	545	
+header	Times[X]	Ue[Y]	Rangem[Y]	ThroughputMbps[Y]	1[Y]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	Time(s) 	Ue 	Range(m) 	Throughput(Mbps)		
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/20160229/3kmh_10Ues_Ratio1/d2d-ltedata.txt	2
+<data>
+0	1		0	110	0
+1	1		0	85	0
+2	2		0	110	0
+3	2		0	85	0
+4	3		0	110	0
+5	3		0	85	0
+6	1		0	330	0
+7	4		0	110	1.8
+8	4		0	85	0
+9	2		0	330	0.48
+10	5		0	110	3.5
+11	5		0	85	0
+12	3		0	330	0.81
+13	6		0	110	4.6
+14	6		0	85	0
+15	4		0	330	0.95
+16	7		0	110	5.3
+17	7		0	85	0
+18	5		0	330	1
+19	8		0	110	5.9
+20	8		0	85	0
+21	6		0	330	0.95
+22	9		0	110	6.4
+23	9		0	85	0
+24	7		0	330	0.95
+25	10		0	110	6.7
+26	10		0	85	0
+27	8		0	330	0.89
+28	11		0	110	7
+29	11		0	85	0
+30	9		0	330	0.84
+31	12		0	110	7.3
+32	12		0	85	0
+33	10		0	330	0.87
+34	13		0	110	7.5
+35	13		0	85	0
+36	11		0	330	0.84
+37	14		0	110	7.7
+38	14		0	85	0
+39	12		0	330	0.79
+40	15		0	110	7.8
+41	15		0	85	0
+42	13		0	330	0.77
+43	16		0	110	8
+44	16		0	85	0
+45	14		0	330	0.75
+46	17		0	110	8.1
+47	17		0	85	0
+48	15		0	330	0.7
+49	18		0	110	8.2
+50	18		0	85	0
+51	16		0	330	0.7
+52	19		0	110	8.3
+53	19		0	85	0
+54	17		0	330	0.66
+55	20		0	110	8.4
+56	20		0	85	0
+57	18		0	330	0.68
+58	21		0	110	8.4
+59	21		0	85	0
+60	19		0	330	0.65
+61	22		0	110	8.5
+62	22		0	85	0
+63	20		0	330	0.63
+64	23		0	110	8.6
+65	23		0	85	0
+66	21		0	330	0.6
+67	24		0	110	8.6
+68	24		0	85	0
+69	22		0	330	0.58
+70	25		0	110	8.7
+71	25		0	85	0
+72	23		0	330	0.56
+73	26		0	110	8.7
+74	26		0	85	0
+75	24		0	330	0.53
+76	27		0	110	8.8
+77	27		0	85	0
+78	25		0	330	0.54
+79	28		0	110	8.8
+80	28		0	85	0
+81	26		0	330	0.54
+82	29		0	110	8.9
+83	29		0	85	0
+84	27		0	330	0.53
+85	30		0	110	8.9
+86	30		0	85	0
+87	28		0	330	0.53
+88	29		0	330	0.52
+89	30		0	330	0.54
+90	31		0	330	0.53
+91	32		0	330	0.52
+92	33		0	330	0.52
+93	34		0	330	0.5
+94	35		0	330	0.49
+95	36		0	330	0.48
+</data>
+</table>
+<multiLayer>
+2D_LteDataRate	1	1	15. 3. 29. 오후 10:50
+geometry	0	0	510	430	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	687	516
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	3	5	501	410
+<PageGeometry>0.0059761	0.013089	0.998008	1.0733</PageGeometry>
+PlotTitle	LTE / WLAN data rates	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	0
+Margin	2
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	0	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	21	50	0	0	0
+ScaleFont0	Ubuntu	11	25	0	0	0
+ScaleFont1	Ubuntu	11	25	0	0	0
+ScaleFont2	Ubuntu	11	25	0	0	0
+ScaleFont3	Ubuntu	11	25	0	0	0
+AxisFont0	Ubuntu	13	25	0	0	0
+AxisFont1	Ubuntu	13	25	0	0	0
+AxisFont2	Ubuntu	13	25	0	0	0
+AxisFont3	Ubuntu	13	25	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	LteDataRate_Times	LteDataRate_ThroughputMbps	7	5	#008000	1	1	5	2	#008000	#008000	0.519997	#008000	10	2	0	0	10	1
+scale	0	0	12	0	7	5	0	0
+scale	1	0	12	0	7	5	0	0
+scale	2	14	26	0	7	5	0	0
+scale	3	14	26	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	3	6
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>16.347967479675</x>
+<y>11.678092399404</y>
+<right>16.9855072463768</right>
+<bottom>10.5346534653465</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)LTE Rx throughput (Mbps)
+</Text>
+<Font>Times New Roman	21	50	0	0	0</Font>
+<TextColor>#008000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+LteDandInfra	1	1	15. 3. 30. 오전 11:12
+geometry	0	0	510	430	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	4	490	366
+<PageGeometry>0.00796813	0.0104712	0.976096	0.958115</PageGeometry>
+PlotTitle	Wifi-adhoc multicast (2 nodes)	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	Throughput (Mbit/s)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	23	25	0	0	0
+ScaleFont0	Ubuntu	26	25	0	0	0
+ScaleFont1	Ubuntu	31	50	0	0	0
+ScaleFont2	Ubuntu	26	25	0	0	0
+ScaleFont3	Ubuntu	31	50	0	0	0
+AxisFont0	Ubuntu	23	25	0	0	0
+AxisFont1	Ubuntu	41	50	0	0	0
+AxisFont2	Ubuntu	23	25	0	0	0
+AxisFont3	Ubuntu	41	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	LteDandInfraRates_Times	LteDandInfraRates_ThroughputMbps	7	5	#800000,0.680003	1	1	5	2	#800000	#800000	0.6	#800000	11	2	0	0	18	1
+scale	0	-1	7	0	9	5	0	0
+scale	1	-1	7	0	9	5	0	0
+scale	2	0	12	0	7	5	0	0
+scale	3	0	12	0	7	5	0	0
+LabelsFormat	1	2	0	6	1	1	0	6
+AxisType	0	0	0	0	
+MajorTicks	2	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	5	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.2809667673716</x>
+<y>12.813559322034</y>
+<right>0.428893905191874</right>
+<bottom>0.913707865168539</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Ubuntu	31	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[15. 3. 28. 오후 7:53	Plot: ''RatevsTime'']
+Gauss Fit of dataset: WlanRate_ThroughputMBits, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 4.600000000000000e+00 to x = 9.800000000000001e+00
+A (area) = 1.843196035531311e+04 +/- 9.190102127347548e+06
+xc (center) = 6.513423473366466e+00 +/- 3.152169110121592e-01
+w (width) = 6.757746933934587e+01 +/- 1.124829606842618e+04
+y0 (offset) = -2.164931912006348e+02 +/- 7.228344596993567e+04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.178104093002628e-01
+R^2 = 0.36959788282483
+Adjusted R^2 = 0.301446302589676
+RMSE (Root Mean Squared Error) = 0.466701627702607
+RSS (Residual Sum of Squares) = 8.27679555340999
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[15. 3. 28. 오후 7:53	Plot: ''RatevsTime'']
+Lorentz Fit of dataset: WlanRate_ThroughputMBits, using function: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 4.600000000000000e+00 to x = 9.800000000000001e+00
+A (area) = 4.526763242543724e+04 +/- 1.405451896779210e+07
+xc (center) = 6.513427875131629e+00 +/- 3.151426465614083e-01
+w (width) = 1.065015667385555e+02 +/- 1.104889717281528e+04
+y0 (offset) = -2.694577780529530e+02 +/- 5.593978493700783e+04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.178446702753762e-01
+R^2 = 0.369498722314929
+Adjusted R^2 = 0.301336422024652
+RMSE (Root Mean Squared Error) = 0.466738331697083
+RSS (Residual Sum of Squares) = 8.27809747046429
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[15. 3. 28. 오후 7:54	Plot: ''RatevsTime'']
+Linear Regression of dataset: WlanRate_ThroughputMBits, using function: A*x
+Weighting Method: No weighting
+From x = 4.600000000000000e+00 to x = 9.800000000000001e+00
+A (slope) = 8.758336355179970e-02 +/- 1.290478214178970e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.225085638685072e-01
+R^2 = -0.319394921647198
+Adjusted R^2 = -0.352379794688378
+RMSE (Root Mean Squared Error) = 0.650006587557778
+RSS (Residual Sum of Squares) = 17.3228511186088
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+</log>

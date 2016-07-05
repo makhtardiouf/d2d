@@ -1,0 +1,267 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+DlPdcpStats	24	11	15. 11. 3. 오후 3:08
+geometry	50	50	445	220	
+header	start	end[X]	CellId	IMSI	TxBytes	RxBytes	delay	stdDev	LTE-Infra (MBit/s)[Y]	Wifi (MBit/s)[Y]	LTE-Direct(MBit/s)[Y]
+ColWidth	100	100	100	100	122	149	100	100	173	100	151	
+<com>
+<col nr="8">
+(col("RxBytes") * 8 /  (col("end") - col("start"))) / 1e6
+</col>
+</com>
+ColType	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;1/2	0;1/3	0;0/2
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0
+Comments	% start	end	CellId	IMSI	TxBytes	RxBytes	delay	stdDev				
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/20151103/3kmh_10Ues_Ratio1/DlPdcpStats.txt	2
+<data>
+0	3	3.2	3	2	270	270	0.0037	0.0012	0.01	5.327	0
+1		4.6							0.01	5.327	0
+2		5.6							0.01	5.396	0
+3		6.6							0.01	5.396	0
+4	8.8	9	3	2	13000	13000	0.045	0.038	0.52	5.4	0
+5	9	9.2	3	2	9300	9300	0.086	0.021	0.37	5.4	0
+6	9.2	9.5	3	2	20000	20000	0.059	0.045	0.53	5.4	0
+7	9.5	9.8	3	2	13000	13000	0.072	0.036	0.35	0	20
+8	9.8	10	3	2	12000	12000	0.062	0.053	0.48	0	20
+9	10	11	3	2	16000	16000	0.039	0.035	0.13	0	20
+10	11	12	3	2	13000	13000	0.054	0.048	0.1	0	20
+11	12	13	3	2	11000	11000	0.13	0.025	0.09	0	20
+12	13	14	3	2	13000	13000	0.079	0.033	0.1	0	20
+13	14	15	3	2	13000	13000	0.067	0.058	0.1	0	20
+</data>
+</table>
+<table>
+Table1	30	9	15. 11. 3. 오후 4:27
+geometry	1129	0	788	470	
+header	1[X]	2[Y]	3[Y]	4[Y]	5[Y]	6[Y]	7[Y]	8[Y]	9[Y]
+ColWidth	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2	0;0/2
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0
+Comments										
+WindowLabel		2
+<data>
+0	10	11	1	6	630000	470000	0.011	0.0028	3.8
+1	9.8	10	1	6	650000	470000	0.011	0.0028	19
+2	9.5	9.8	1	6	620000	500000	0.012	0.0026	13
+3	9	9.2	1	6	640000	500000	0.012	0.0026	20
+4	13	14	1	6	630000	480000	0.012	0.0028	3.8
+5	12	13	1	6	650000	530000	0.013	0.0036	4.2
+6	11	12	1	6	620000	470000	0.011	0.0028	3.8
+7	9.2	9.5	1	6	640000	480000	0.012	0.0025	13
+8	8.8	9	1	6	630000	500000	0.013	0.0031	20
+9	14	15	1	6	640000	520000	0.012	0.0032	4.2
+10	8.5	8.8	1	6	13000	0	0	0	0
+11	3	3.2	1	6	270	270	0.0054	0.0041	0.01
+</data>
+</table>
+<table>
+Wifi-adhoc	10	4	15. 11. 3. 오후 5:04
+geometry	69	262	610	323	
+header	Times[X]	Ue[Y]	Rangem[Y]	ThroughputMbps[Y]
+ColWidth	100	100	100	140	
+<com>
+</com>
+ColType	0;0/2	0;0/2	0;0/2	0;0/2
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments	Time(s) 	Ue 	Range(m) 	Throughput(Mbps)	
+WindowLabel	/home/makhtar/Documents/Code/Wireless-src/ns3-dev/OUTPUT/20151103/3kmh_10Ues_Ratio1/d2d-wlandata.txt	2
+<data>
+0	4.6	0	22	5.3
+1	4.6	0	100	5.3
+2	5.6	0	22	5.4
+3	5.6	0	100	5.4
+4	6.6	0	22	5.4
+5	6.6	0	100	5.4
+6	7.6	0	22	5.4
+7	7.6	0	100	5.4
+8	8.6	0	22	5.4
+9	8.6	0	100	5.4
+</data>
+</table>
+<multiLayer>
+LTE-Direct-RX	1	1	15. 11. 3. 오후 4:29
+geometry	748	162	1012	501	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	736	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	995	439
+<PageGeometry>0.00498008	0.0110375	0.991036	0.969095</PageGeometry>
+PlotTitle	LTE-D Rx data rates (1node)	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Time(s)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	50	0	0	0
+ScaleFont0	Ubuntu	16	25	0	0	0
+ScaleFont1	Ubuntu	21	25	0	0	0
+ScaleFont2	Ubuntu	16	25	0	0	0
+ScaleFont3	Ubuntu	21	25	0	0	0
+AxisFont0	Ubuntu	12	25	0	0	0
+AxisFont1	Ubuntu	18	25	0	0	0
+AxisFont2	Ubuntu	18	25	0	0	0
+AxisFont3	Ubuntu	18	25	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#31363b	#31363b	#31363b	#31363b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	DlPdcpStats_end	DlPdcpStats_LTE-Infra (MBit/s)	7	5	#ff8000,0.719997	0	1	5	3	#0000ff	#0000ff	1	#ff8000	13	2	0	0	10	1
+scale	0	0	0.6	0	7	5	0	0
+scale	1	0	0.6	0	7	5	0	0
+scale	2	2	14	0	7	5	0	0
+scale	3	2	14	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>2.1904761904762</x>
+<y>0.57993311036789</y>
+<right>3.3993399339934</right>
+<bottom>0.534857142857143</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Ubuntu	18	25	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+All	1	1	15. 11. 3. 오후 5:05
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	736	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	11	8	1898	553
+<PageGeometry>0.00572917	0.0137931	0.988542	0.953448</PageGeometry>
+PlotTitle	Data rates vs Time	#000000	4
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Time(s)	Throughput (MBit/s)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	20	25	0	0	0
+ScaleFont0	Ubuntu	26	25	0	0	0
+ScaleFont1	Ubuntu	26	25	0	0	0
+ScaleFont2	Ubuntu	26	25	0	0	0
+ScaleFont3	Ubuntu	26	25	0	0	0
+AxisFont0	Ubuntu	23	25	0	0	0
+AxisFont1	Ubuntu	23	25	0	0	0
+AxisFont2	Ubuntu	23	25	0	0	0
+AxisFont3	Ubuntu	23	25	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#31363b	#31363b	#31363b	#31363b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	DlPdcpStats_end	DlPdcpStats_Wifi (MBit/s)	7	5	#008000	0	1	5	1	#008000	#008000,0.650004	0.680003	#008000	13	2	0	0	20	1
+curve	DlPdcpStats_end	DlPdcpStats_LTE-Infra (MBit/s)	7	5	#800000,0.730007	0	1	5	2	#800000	#800000	0.749996	#800000	12	2	0	0	20	1
+curve	DlPdcpStats_end	DlPdcpStats_LTE-Direct(MBit/s)	2	1	#ff8000,0.749996	1	1	5	3	#ff8000	#ff8000,0.570001	0.519997	#ff8000	13	1	2	0	0	20	1
+scale	0	0	21	2.5	10	4	0	0
+scale	1	0	21	2.5	10	4	0	0
+scale	2	3	15	1	13	5	0	0
+scale	3	3	15	1	13	5	0	0
+LabelsFormat	1	2	0	6	1	1	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>4.6253602305476</x>
+<y>20.657276995305</y>
+<right>4.06794682422452</right>
+<bottom>20.609756097561</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Wifi-adhoc < 150m
+\l(3)LTE-Direct P2P [ 150m; 250m ]
+\l(2)LTE-Infra   > 250m
+
+</Text>
+<Font>Ubuntu	16	25	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

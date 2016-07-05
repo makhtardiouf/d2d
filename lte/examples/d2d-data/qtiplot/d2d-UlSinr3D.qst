@@ -1,0 +1,38 @@
+QtiPlot 0.9.8 template file
+<SurfacePlot>
+UlSinr	15. 2. 28. 오후 12:22
+geometry	maximized	active
+SurfaceFunction	UlSinrStats_time(X),UlSinrStats_IMSI(Y)	0.321	14.967	0	6	1	10
+Style	box	floordata	filledmesh
+grids	50
+title		#000000	Ubuntu	20	50	0
+colors	#800080	#000000	#800080	#ff8000	#ffffff	#000000	#0000ff	#ff0000	1	
+axesLabels	Time(s)	SINR (dB)	IMSI
+tics	5	5	5	5	5	5
+tickLengths	0.6	0.36	1.4646	0.87876	1.4646	0.87876
+options	0	1	0
+numbersFont	Ubuntu	17	50	0
+xAxisLabelFont	Ubuntu	17	50	0
+yAxisLabelFont	Ubuntu	17	50	0
+zAxisLabelFont	Ubuntu	17	50	0
+rotation	128	98	113
+zoom	10.512
+scaling	0.068278	0.166667	0.111111
+shift	0	0	0
+LineWidth	1
+WindowLabel	dB	2
+Orthogonal	0
+<ColorMap>
+	<Mode>1</Mode>
+	<MinColor>#0000ff</MinColor>
+	<MaxColor>#ff0000</MaxColor>
+	<ColorStops>1</ColorStops>
+	<Stop>0	#0000ff</Stop>
+</ColorMap>
+axisType	0	0	0
+<Grid>
+	<Major>1	#0000ff	0	1</Major>
+	<Minor>1	#c0c0c0	1	0.8</Minor>
+</Grid>
+<AxesNumberFormat>0	6	0	6	0	6	</AxesNumberFormat>
+</SurfacePlot>

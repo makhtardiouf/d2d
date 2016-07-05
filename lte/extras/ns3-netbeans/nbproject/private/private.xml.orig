@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="10">
+        <file>
+            <url>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/lte-enb-phy.h</url>
+            <bookmark id="2">
+                <name/>
+                <line>103</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>113</line>
+                <key/>
+            </bookmark>
+            <bookmark id="4">
+                <name/>
+                <line>154</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>206</line>
+                <key/>
+            </bookmark>
+            <bookmark id="8">
+                <name/>
+                <line>231</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/lte-enb-phy.cc</url>
+            <bookmark id="6">
+                <name/>
+                <line>530</line>
+                <key/>
+            </bookmark>
+            <bookmark id="1">
+                <name/>
+                <line>655</line>
+                <key/>
+            </bookmark>
+            <bookmark id="7">
+                <name/>
+                <line>824</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/lte-ue-phy.cc</url>
+            <bookmark id="9">
+                <name/>
+                <line>1082</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/home/makhtar/Documents/Code/Wireless-src/ns-allinone-3.21/ns-3.21/src/point-to-point/model/point-to-point-channel.h</url>
+            <bookmark id="10">
+                <name/>
+                <line>86</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/helper/lte-prose-helper.cc</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/epc-prose-fcn.cc</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/web-client.h</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/web-client.cc</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/web-server.cc</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/examples/d2dsim.cc</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/web-server.h</file>
+        <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/lte-prose-app.h</file>
+        <group>
+            <file>file:/home/makhtar/Documents/Code/Wireless-src/ns3-dev/src/lte/model/lte-proseapp-multicast.cc</file>
+        </group>
+    </open-files>
+</project-private>
