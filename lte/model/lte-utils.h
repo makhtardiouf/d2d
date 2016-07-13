@@ -26,6 +26,7 @@
 #include <ns3/net-device-container.h>
 #include <ns3/lte-ue-net-device.h>
 #include <ns3/lte-ue-rrc.h>
+#include <ns3/lte-ue-phy.h>
 #include <ns3/lte-enb-phy.h>
 
 #include <ns3/animation-interface.h>

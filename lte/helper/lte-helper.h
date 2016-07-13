@@ -39,8 +39,6 @@
 #include <ns3/mobility-model.h>
 #include <ns3/trace-helper.h>
 
-#include "ns3/lte-ue-phy-d2d.h"
-
 namespace ns3 {
 
 class LteUePhy;

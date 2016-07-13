@@ -33,7 +33,7 @@
 #include <ns3/mobility-model.h>
 #include <ns3/lte-hex-grid-enb-topology-helper.h>
 
-#include "ns3/lte-prose-app.h"
+#include "ns3/lte-proseapp.h"
 #include "ns3/epc-prose-fcn.h"
 #include <vector>
 

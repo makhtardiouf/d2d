@@ -72,5 +72,3 @@ This project was initially hosted at: https://bitbucket.org/makhtardiouf/dtod
     InfoCom Engineering department
     Adviser: Woongsup Lee
     Implementer: Makhtar Diouf
-    
-$Id$
