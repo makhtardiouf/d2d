@@ -5,7 +5,7 @@
  * Proximity-based LTE-Direct (D2D)
  *
  * 
- * $Id: lte-prose-helper.h, 2016-02-23 21:40 +0900 makhtar $
+ * $Id: lte-prose-helper.h, 2016-07-13 20:30 +0900 makhtar $
  * Advisor: Woonsup Lee 
  * Author: Makhtar Diouf 
  * 

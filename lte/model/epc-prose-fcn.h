@@ -18,7 +18,7 @@
 #define	EPC_PROSEFCN_H
 
 #include "lte-prose-common.h"
-#include "lte-prose-app.h"
+#include "lte-proseapp.h"
 #include "ns3/http-server.h"
 
 namespace ns3

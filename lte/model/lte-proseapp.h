@@ -3,7 +3,7 @@
  * Copyright (c) 2014-2016 Gyeongsang N. University
  * InfoCom Engineering Dept, South Korea
  * 
- * $Id: lte-proseapp.h, 2016-07-05 18:56 +0900 makhtar $
+ * $Id: lte-proseapp.h, 2016-07-13 20:30 +0900 makhtar $
  * Advisor: Woonsup Lee 
  * Author: Makhtar Diouf 
  * *** Proximity-based Services LTE-Direct (D2D) ***
@@ -29,7 +29,6 @@
 #include <ns3/udp-client.h>
 #include <ns3/bulk-send-application.h>
 #include <ns3/ipv4-address-helper.h>
-#include "ns3/lte-prose-d2d-helper.h"
 #include "ns3/traffic-control-helper.h"
 
 #include "lte-prose-common.h"

@@ -44,7 +44,6 @@ Pull the D2D-related changesets:
 
 Build:
 
-    cd $NS3_DIR
     CXXFLAGS="-std=c++11" ./waf build   
 
 Run:
@@ -66,7 +65,7 @@ Detailed documentation will be written later on.
 This project was initially hosted at: https://bitbucket.org/makhtardiouf/dtod
 
     HTTP-related code: (C) Georgia Tech Research Corporation
-    Upstream NS-3 LTE module: (C) Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
+    NS-3 LTE module: (C) Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
 
     LTE D2D: (C) 2014-2016 Gyeonsang N. University
     InfoCom Engineering department
