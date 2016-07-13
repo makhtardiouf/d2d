@@ -3,7 +3,7 @@
  * Copyright (c) 2014-2016 Gyeongsang N. University
  * InfoCom Engineering Dept, South Korea
  *
- * $Id: epc-prose-fcn.h, 2016-05-26 19:01 +0900 makhtar $
+ * $Id: epc-prose-fcn.h, 2016-07-13 20:52 +0900 makhtar $
  * Advisor: Woonsup Lee 
  * Author: Makhtar Diouf 
  * *** Proximity-based Services LTE-Direct (D2D) ***
