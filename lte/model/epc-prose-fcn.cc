@@ -322,7 +322,7 @@ void EpcProSeFcnApp::ReportMatch (uint64_t uid, std::list<uint64_t> matches)
     Ptr<LteUeNetDevice> udev;
     Ptr<ProSeApp> app;
 
-    this->m_comType = WIFI_ONLY;
+   // this->m_comType = LTE_D_ONLY;
     matchParams mp;
     int nDevs = 0;
 
