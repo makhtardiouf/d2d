@@ -29,7 +29,7 @@ Configuration on Ubuntu:
 
 Get the ns-3 development tree:
 
-    hg clone http://code.nsnam.org/ns-3-dev ns3-dev
+    hg clone -r 12192 http://code.nsnam.org/ns-3-dev ns3-dev
     cd ns3-dev
     export NS3_DIR=`pwd`
 
@@ -39,6 +39,7 @@ Pull the D2D-related changesets:
     cp -Rv d2d/* src/
     mv d2d/.git src/      # For future updates with git pull
 
+    cd $NS3_DIR
     export CXXFLAGS="-O0 -ggdb -g3 -Wall -std=c++11 -fstrict-aliasing -Wstrict-aliasing"
     ./waf configure --build-profile=debug --enable-sudo --enable-examples
 
@@ -60,14 +61,16 @@ Utility scripts are in:
 
 Stats files(txt, pcap) are saved under the OUTPUT directory.
 
+Recommended environment: (K)Ubuntu 15.x, 16.x; g++ 4.9, 5.x
+
 Detailed documentation will be written later on.
 
 This project was initially hosted at: https://bitbucket.org/makhtardiouf/dtod
 
-    HTTP-related code: (C) Georgia Tech Research Corporation
     NS-3 LTE module: (C) Centre Tecnologic de Telecomunicacions de Catalunya (CTTC)
+    HTTP-related code: (C) Georgia Tech Research Corporation
 
-    LTE D2D: (C) 2014-2016 Gyeonsang N. University
+    D2D features: (C) 2014-2016 Gyeonsang N. University
     InfoCom Engineering department
     Adviser: Woongsup Lee
     Implementer: Makhtar Diouf
