@@ -141,7 +141,7 @@ ProSeApp::RequestDiscovery (Command cmd)
         ip << m_clientIp6;
     else
         ip << m_clientIp;
-    ss << ip << Simulator::Now ().GetNanoSeconds ();
+    ss << ip.str() << Simulator::Now ().GetNanoSeconds ();
     transactionId = ss.str ();
     ss.str ("");
     ss << "TransactionId=" << transactionId
@@ -149,7 +149,7 @@ ProSeApp::RequestDiscovery (Command cmd)
             << "&AppId=" << GetAppId ()
             << "&EpUID=" << GetEpUID ()
             << "&RangeClass=" << RangeClass::r3 // ~200m
-            << "&WlanIndication=true" // willing to engage in WLAN Direct com
+            << "&WlanIndication=true"           // willing to engage in WLAN Direct com
             << "&Command=" << cmd;
 
     Ptr<HttpClient> app = DynamicCast<HttpClient> (clientApp);

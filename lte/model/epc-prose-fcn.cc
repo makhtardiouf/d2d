@@ -436,7 +436,6 @@ void EpcProSeFcnApp::ReportMatch (uint64_t uid, std::list<uint64_t> matches)
 
 void EpcProSeFcnApp::SplitMatches (matchParams &m)
 {
-
     Ptr<ProSeApp> app = m.peer->GetObject<ProSeApp>();
 
     switch (this->m_comType)
