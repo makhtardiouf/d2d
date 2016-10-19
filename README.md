@@ -19,21 +19,23 @@ discovery and communication in LTE-Advanced networks, called D2dSim. Using the p
     LTE-Direct discovery; some data structures are in draft stage.
 
  
-   **1. Configuration on Ubuntu:
+**1. Configuration on Ubuntu:
 
     apt-get install libgccxml-dev libgsl0-dev libopenmpi-dev python-dev python-pygraphviz \
     python-kiwi python-pygoocanvas python-gnome2 python-rsvg libsqlite3-dev gtk+-2.0-dev
 
-    **2. Get the ns-3 development tree:
+**2. Get the ns-3 development tree:
 
     hg clone -r 12192 http://code.nsnam.org/ns-3-dev ns3-dev
     cd ns3-dev
     export NS3_DIR=`pwd`
     
-    ** Note that recent updates of mainstream ns-3 can bring compilation or runtime failures, due to TrafficControl & Queuing features that were added to the IP network module. Thus, use Revision 12192 above.
+    ** Note that recent updates of mainstream ns-3 can bring compilation or runtime failures, 
+    due to TrafficControl & Queuing features that were added to the IP network module. 
+    Thus, use Revision 12192 above.
 
 
-    **3. Pull the D2D-related changesets:
+**3. Pull the D2D-related changesets:
 
     git clone https://github.com/makhtardiouf/d2d.git
     cp -Rv d2d/* src/
@@ -44,16 +46,16 @@ discovery and communication in LTE-Advanced networks, called D2dSim. Using the p
     ./waf configure --build-profile=debug --enable-sudo --enable-examples
 
 
-    **4. Build:
+**4. Build:
 
     CXXFLAGS="-std=c++11" ./waf build   
 
-    **5. Run:
+**5. Run:
 
     ./waf --run d2dsim
 
 
-    ** Utility scripts are in:
+** Utility scripts are in:
 
     $NS3_DIR/src/lte/examples/d2d-data/d2d*.bash
     d2dbuild.bash  Build and display log
